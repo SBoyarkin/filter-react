@@ -6,7 +6,7 @@ export function ProjectList({ projects, filter }) {
     return (
         <div className="project-list">
             {filteredProjects.map(project => (
-                <img src={project.img} alt={project.category} class='project'/>
+                <img src={project.img} alt={project.category} className='project'/>
             ))}
         </div>
     );
