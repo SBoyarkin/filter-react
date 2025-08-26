@@ -1,7 +1,6 @@
-export function Toolbar({filters, selected}) {
-    console.log(filters)
-    console.log(selected)
-    const test = filters.map((item) => <div className='toolbar__item'>{item}</div>)
+export function Toolbar({filters, selected, onSelectFilter}) {
+    const test = filters.map((item) =>
+        <div className='toolbar__item' onClick={() =>onSelectFilter(item)}>{item}</div>)
     return(
         <>
             <div class='toolbar'>
