@@ -14,6 +14,7 @@
   width: 900px;
   flex-wrap: wrap;
   justify-content: space-between;
+  height: 100vh;
 
 }
 
@@ -42,6 +43,7 @@
 
 .toolbar {
   display: flex;
+  top: 0;
 
 }
 .card {
