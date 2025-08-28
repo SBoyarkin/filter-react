@@ -53,3 +53,15 @@
 .read-the-docs {
   color: #888;
 }
+
+.project-list {
+  column-count: 3;
+  column-gap: 20px;
+  break-inside: avoid;
+}
+
+.project-list > * {
+  display: inline-block;
+  width: 100%;
+  break-inside: avoid;
+}
